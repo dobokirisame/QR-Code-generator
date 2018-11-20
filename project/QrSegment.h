@@ -25,7 +25,7 @@
 
 #include <cstdint>
 #include <vector>
-#include "BitBuffer.hpp"
+#include "BitBuffer.h"
 
 
 namespace qrcodegen {

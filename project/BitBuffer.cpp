@@ -22,7 +22,7 @@
  */
 
 #include <stdexcept>
-#include "BitBuffer.hpp"
+#include "BitBuffer.h"
 
 
 namespace qrcodegen {

@@ -27,7 +27,7 @@
 #include <deque>
 #include <string>
 #include <vector>
-#include "QrSegment.hpp"
+#include "QrSegment.h"
 
 
 namespace qrcodegen {

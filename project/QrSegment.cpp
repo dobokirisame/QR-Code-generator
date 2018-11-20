@@ -25,7 +25,7 @@
 #include <cstring>
 #include <stdexcept>
 #include <utility>
-#include "QrSegment.hpp"
+#include "QrSegment.h"
 
 using std::uint8_t;
 using std::vector;

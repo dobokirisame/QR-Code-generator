@@ -28,8 +28,8 @@
 #include <sstream>
 #include <stdexcept>
 #include <utility>
-#include "BitBuffer.hpp"
-#include "QrCode.hpp"
+#include "BitBuffer.h"
+#include "QrCode.h"
 
 using std::int8_t;
 using std::uint8_t;

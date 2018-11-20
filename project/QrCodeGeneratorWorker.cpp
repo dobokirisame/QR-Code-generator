@@ -31,7 +31,7 @@
 #include <cstring>
 #include <iostream>
 #include <vector>
-#include "QrCode.hpp"
+#include "QrCode.h"
 
 using qrcodegen::QrCode;
 using qrcodegen::QrSegment;

@@ -21,7 +21,7 @@ Install
     make install
 
  
-Example
+Examples
 --------
 
 C++ language:
@@ -43,6 +43,28 @@ C++ language:
     for (int y = 0; y < qr1.getSize(); y++) {
         for (int x = 0; x < qr1.getSize(); x++) {
             (... paint qr1.getModule(x, y) ...)
+        }
+    }
+
+
+QML language:
+
+
+Somewhere in your cpp code:
+
+    #include QrCodeImage
+    ...
+    qmlRegisterType<QrCodeImage>("QrCodeImage",1,0,"QrCodeImage");
+
+QML side
+
+    import QrCodeImage 1.0
+
+    Item {
+        QrCodeImage {
+            id: qrcodeImage
+            anchors.fill: parent
+	    text: "Hello, world!"
         }
     }
 

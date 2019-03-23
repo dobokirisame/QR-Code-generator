@@ -7,11 +7,13 @@ set(SOURCES
     QrCode.cpp
     QrCodeGeneratorWorker.cpp
     QrSegment.cpp
+    QrCodeImage.cpp
 )
 set(HEADERS
     BitBuffer.h
     QrCode.h
     QrSegment.h
+    QrCodeImage.h
 )
 add_library(qrcodegen SHARED BitBuffer.cpp QrCode.cpp QrCodeGeneratorDemo.cpp QrCodeGeneratorWorker.cpp QrSegment.cpp)
 target_link_libraries(qrcodegen)
